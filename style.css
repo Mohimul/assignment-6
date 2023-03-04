@@ -1,0 +1,44 @@
+* {
+    margin: 0%;
+    padding: 0%;
+  }
+  #common{
+    width: 700px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 10px;
+     
+    
+  }
+  .div1{
+    background: rgb(248, 224, 224);
+    border: 3px solid rgb(110, 107, 97);
+    padding: 10px;
+    flex-wrap: wrap;
+  }
+  .accuracy{
+    position: absolute;
+    transform: translate(-50%, -50%);
+    top: 45px;
+    right: -20px;
+  }
+  @media (max-width: 768px) {
+    #common{
+      display: grid;
+      grid-template-columns: repeat(1, 1fr);
+    }
+    .div1, .div2{
+      width: 100%;
+    }
+    .modal-content {
+     max-width: 100%;
+       
+    }
+    #modal-item, #fetures-css{
+       
+      width: 100%;
+    }
+
+    
+  }
